@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 38196343
     locked: 0
+  - name: Background2
+    uniqueID: 2655244997
+    locked: 0
   - name: Foreground
     uniqueID: 2373276763
     locked: 0
@@ -61,7 +64,4 @@ TagManager:
     locked: 0
   - name: Collectables
     uniqueID: 2050873243
-    locked: 0
-  - name: Background2
-    uniqueID: 2655244997
     locked: 0
