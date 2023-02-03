@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38deab0091066e24bbb42e8b097d85a0
+guid: fa18e78553468ff4aa18fcb06e309de7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 222
+  spritePixelsToUnits: 144
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,29 +112,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heu2_0
+      name: gridroots3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1261
-        width: 223
-        height: 222
+        x: 6
+        y: 1449
+        width: 147
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6208c5e488a97ab4ab6c9ea5e3930c01
-      internalID: 1730364602
+      spriteID: 032064e5458767b4dbd6112d3b297b26
+      internalID: 1551665766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_1
+      name: gridroots3_1
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1259
-        width: 222
-        height: 221
+        x: 180
+        y: 1441
+        width: 164
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55c2fe2d7db8a5245b9aeef922115c12
-      internalID: -1800951779
+      spriteID: 8cef6ce3028b4f94580b6f61a48a071a
+      internalID: 1668306883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_2
+      name: gridroots3_2
       rect:
         serializedVersion: 2
-        x: 521
-        y: 1259
-        width: 221
-        height: 221
+        x: 372
+        y: 1440
+        width: 163
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4e6d1a17e90754db4fed3afe66d15c
-      internalID: -391860630
+      spriteID: 461545f41ca967b4f987c1c0a86a7a72
+      internalID: 1597222396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_3
+      name: gridroots3_3
       rect:
         serializedVersion: 2
-        x: 778
-        y: 1259
-        width: 222
-        height: 221
+        x: 575
+        y: 1438
+        width: 164
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da16f23d6788845439f55fb2b7aa59c4
-      internalID: -138390309
+      spriteID: f1807b28738b07c4cb1110dcd68be330
+      internalID: 1690441509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_4
+      name: gridroots3_4
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 1259
-        width: 221
-        height: 221
+        x: 779
+        y: 1437
+        width: 163
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +214,650 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21718d291d038b747802f8d69ab0d017
-      internalID: -1067471311
+      spriteID: 6e88c5fe5fb880845b7fe064f57d76b9
+      internalID: -977924611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_5
+      name: gridroots3_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1246
+        width: 148
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74723f2c815e1458c60dd912898755
+      internalID: -658054897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1238
+        width: 165
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e69ab0391fdd4497ac35ba26e602f
+      internalID: 91000254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1237
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849585c68d88862408c1a0b93d32662a
+      internalID: -574240605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_8
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1237
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22797035fe7f78d4caa206e15b7c2742
+      internalID: 563358060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_9
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1242
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5bb8bacce1c24b9464a1544151827
+      internalID: -1240751325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1049
+        width: 143
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86cc8e003f553d45adc042eb6489f0b
+      internalID: -1751824373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1041
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70bc99a269174142aceb8340b442135
+      internalID: -802826871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1039
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412b2fa338636224287ecf8719065391
+      internalID: -1877174508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_13
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1043
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011477d4e41c43f44aa22c93cdf67a40
+      internalID: -1252692506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_14
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1045
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a00395ec297e2419bf41965e2b044a
+      internalID: -259226519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 849
+        width: 145
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84475ea5bad9554b824442f69362136
+      internalID: 1997025168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_16
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 842
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fba08a9a48eb744b018af59995bcae
+      internalID: -1739294481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_17
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 842
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb42fa78660480b40b1212e27e78f29a
+      internalID: -267835114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_18
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 842
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ec9aefdefab004987b98969139b18c
+      internalID: -1291287133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 842
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c130ee4a6f654fb56236475ce46e8
+      internalID: -503148534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 639
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efd8323af914c44f9aa555b3261444a
+      internalID: 768051591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 629
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590e1a143d5bb404dab2ca7f4f75db90
+      internalID: 306947711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 629
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f94138fe77a3ad4e872bd525950ddf8
+      internalID: 1741365155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 629
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e958b4f4abf4b2f4ea8e2cc6759e20b8
+      internalID: 219561453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 629
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddb62455902a444e9920ec7763930f1
+      internalID: -1366197134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 424
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0df13109c50a544b71fa3f6bd69bd4
+      internalID: 1231155327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_26
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 413
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510a6bd734c82af4b8cb03e1606eace1
+      internalID: -1440691669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_27
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 411
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b0f347a04593a4da648a29241d3507
+      internalID: -978620389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_28
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 409
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742a6a590c659404186d1df693cdd3cd
+      internalID: 437849535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_29
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 407
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a49ef679539c4fb3a25336f1eed83
+      internalID: 242985387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f008e90a11c53854096b28b70d809796
+      internalID: -403394398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 197
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121e8cb861ce08c429562b966aa9c609
+      internalID: -1834581201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_32
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 197
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6b4a4e680ab3c469caf436d0f6f86e
+      internalID: 423020879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_33
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 197
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9fe8b6e5602604b9dfc43ab979a5bb
+      internalID: 1648602215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_34
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 198
+        width: 164
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dd96d19b674b1498c1cadbe8528f60
+      internalID: 1497429178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gridroots3_35
       rect:
         serializedVersion: 2
         x: 2
-        y: 1007
-        width: 221
-        height: 222
+        y: 14
+        width: 142
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,419 +865,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002ea43e19dd8f54ea7ce1d958b6a014
-      internalID: 1783068114
+      spriteID: bbe9d84f99279444e8ce0f6402bc185f
+      internalID: -1179134976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_6
+      name: gridroots3_36
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1007
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b828ce4d2c26b404fa285dc2cc28f1e6
-      internalID: 1744842178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_7
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 1007
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46ab03d3b68980e4dbf3c6f0469ec7e7
-      internalID: -1982352494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_8
-      rect:
-        serializedVersion: 2
-        x: 778
-        y: 1007
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 773e3e1e76f4a9d41a34d702376b27d5
-      internalID: -1147314102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_9
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 1007
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 784b7badf66fa684ea15b94b6e1dc1bc
-      internalID: 378580068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 755
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d79affcb0823f1542acd6ba25b9d06ed
-      internalID: 1484457294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_11
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 755
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88ec1a13f470f3d4583abd8457f0bd60
-      internalID: -1124418029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_12
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 755
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 582e5307e8cd44b4c832cf8bf8f10062
-      internalID: -1648126900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_13
-      rect:
-        serializedVersion: 2
-        x: 778
-        y: 755
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25b5e266794611e4887d60fd6a198b9f
-      internalID: -946835077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_14
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 755
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2292066475fc92448f2b655e328c782
-      internalID: -952405246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_15
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 503
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ee3feec45423c04a80e84ea6cf63d52
-      internalID: -106427504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_16
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 503
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af79e620676585f499ecf66d553fca85
-      internalID: 1682926940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_17
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 503
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d63d96005c9b1a4bbed5874f041f4fd
-      internalID: -1005066737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_18
-      rect:
-        serializedVersion: 2
-        x: 778
-        y: 503
-        width: 222
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6a10f749ab74fd4ebbc81f4b5af731e
-      internalID: 1916958301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_19
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 503
-        width: 221
-        height: 222
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97c9337d316664744804a88c711093c9
-      internalID: 1621596773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_20
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 252
-        width: 221
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0390b28205ce40349905998cb2cfbd78
-      internalID: 1439943758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_21
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 252
-        width: 222
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f85e824ae97f3b346a678f7b44d01c70
-      internalID: -727793449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_22
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 252
-        width: 221
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed44f9b7d60d1ef47a2689d015bed99b
-      internalID: 300057401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_23
-      rect:
-        serializedVersion: 2
-        x: 778
-        y: 252
-        width: 222
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ec30aa9201f9184cb1d15e78039e0d6
-      internalID: -762667768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_24
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 252
-        width: 221
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 458c203c5e5cc0641afe989d968597e9
-      internalID: -814632459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_25
-      rect:
-        serializedVersion: 2
-        x: 2
+        x: 591
         y: 0
-        width: 221
-        height: 221
+        width: 146
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,20 +886,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c4a8e3a30c7464284f3697122ef41e
-      internalID: 1332249146
+      spriteID: 47dddc544b2a2cd49b47a336a04ba7f0
+      internalID: -1079156705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heu2_26
+      name: gridroots3_37
       rect:
         serializedVersion: 2
-        x: 263
-        y: 0
-        width: 222
-        height: 221
+        x: 793
+        y: 1
+        width: 147
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,71 +907,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a29c34b8afcebc54bb53ce7aacac30e7
-      internalID: -1551453651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_27
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 0
-        width: 221
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11cf40358565e7343b6b79f210c2c4e6
-      internalID: -1424993845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_28
-      rect:
-        serializedVersion: 2
-        x: 778
-        y: 0
-        width: 222
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4fc82849246b9f41aafec8f21fc3245
-      internalID: 119479551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heu2_29
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 0
-        width: 221
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fa08558dbaa13b4bb5219555f33114a
-      internalID: 1817892327
+      spriteID: 260c170021ce27d4c8d954689d8e1871
+      internalID: 1422082221
       vertices: []
       indices: 
       edges: []
@@ -768,36 +924,44 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      heu2_10: 1484457294
-      heu2_0: 1730364602
-      heu2_9: 378580068
-      heu2_22: 300057401
-      heu2_11: -1124418029
-      heu2_23: -762667768
-      heu2_14: -952405246
-      heu2_20: 1439943758
-      heu2_24: -814632459
-      heu2_26: -1551453651
-      heu2_2: -391860630
-      heu2_15: -106427504
-      heu2_16: 1682926940
-      heu2_5: 1783068114
-      heu2_17: -1005066737
-      heu2_21: -727793449
-      heu2_6: 1744842178
-      heu2_8: -1147314102
-      heu2_19: 1621596773
-      heu2_4: -1067471311
-      heu2_27: -1424993845
-      heu2_29: 1817892327
-      heu2_12: -1648126900
-      heu2_1: -1800951779
-      heu2_28: 119479551
-      heu2_7: -1982352494
-      heu2_13: -946835077
-      heu2_3: -138390309
-      heu2_18: 1916958301
-      heu2_25: 1332249146
+      gridroots3_15: 1997025168
+      gridroots3_20: 768051591
+      gridroots3_22: 1741365155
+      gridroots3_34: 1497429178
+      gridroots3_9: -1240751325
+      gridroots3_8: 563358060
+      gridroots3_35: -1179134976
+      gridroots3_1: 1668306883
+      gridroots3_11: -802826871
+      gridroots3_28: 437849535
+      gridroots3_2: 1597222396
+      gridroots3_6: 91000254
+      gridroots3_17: -267835114
+      gridroots3_12: -1877174508
+      gridroots3_18: -1291287133
+      gridroots3_27: -978620389
+      gridroots3_30: -403394398
+      gridroots3_26: -1440691669
+      gridroots3_4: -977924611
+      gridroots3_14: -259226519
+      gridroots3_16: -1739294481
+      gridroots3_23: 219561453
+      gridroots3_13: -1252692506
+      gridroots3_32: 423020879
+      gridroots3_36: -1079156705
+      gridroots3_33: 1648602215
+      gridroots3_24: -1366197134
+      gridroots3_31: -1834581201
+      gridroots3_7: -574240605
+      gridroots3_0: 1551665766
+      gridroots3_3: 1690441509
+      gridroots3_10: -1751824373
+      gridroots3_29: 242985387
+      gridroots3_25: 1231155327
+      gridroots3_37: 1422082221
+      gridroots3_5: -658054897
+      gridroots3_19: -503148534
+      gridroots3_21: 306947711
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
