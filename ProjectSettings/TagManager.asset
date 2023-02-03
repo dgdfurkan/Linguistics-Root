@@ -62,3 +62,6 @@ TagManager:
   - name: Collectables
     uniqueID: 2050873243
     locked: 0
+  - name: Background2
+    uniqueID: 2655244997
+    locked: 0
