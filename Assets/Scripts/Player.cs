@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private CapsuleCollider2D myBodyCollider2D;
     [SerializeField] private BoxCollider2D myFeet;
     private float myGravityScaleAtStart;
-
+    [SerializeField] private GameObject inventoryPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -36,11 +36,26 @@ public class Player : MonoBehaviour
             return;
         }
 
+        OpenInventory();
         Run();
         FlipSprite();
-        Jump();
+
+        if (InventorySystem.Instance.word == "jump")
+        {
+            Jump();
+        }
+
         ClimbLadder();
         Die();
+    }
+
+    private void OpenInventory()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (inventoryPanel.activeSelf)  inventoryPanel.SetActive(false);
+            else inventoryPanel.SetActive(true);
+        }
     }
 
     private void Run()
@@ -50,7 +65,7 @@ public class Player : MonoBehaviour
         myRigidBody.velocity = playerVelocity;
 
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
-        ///myAnimator.SetBool("Running", playerHasHorizontalSpeed);
+        myAnimator.SetBool("Running", playerHasHorizontalSpeed);
     }
 
     private void FlipSprite()
@@ -81,7 +96,7 @@ public class Player : MonoBehaviour
     {
         if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
-            ///myAnimator.SetBool("Climbing", false);
+            myAnimator.SetBool("Climbing", false);
             myRigidBody.gravityScale = myGravityScaleAtStart;
 
         }
@@ -93,7 +108,7 @@ public class Player : MonoBehaviour
             myRigidBody.gravityScale = 0f;
 
             bool playerHasVerticalSpeed = Mathf.Abs(myRigidBody.velocity.y) > Mathf.Epsilon;
-            ///myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
+            myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
         }
     }
 
@@ -102,9 +117,11 @@ public class Player : MonoBehaviour
         if (myBodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Obstacles")))
         {
             isAlive = false;
-            ///myAnimator.SetTrigger("Dying");
+            myAnimator.SetTrigger("Dying");
             myRigidBody.velocity = deathKick;
             //FindObjectOfType<GameSession>().ProcessPlayerDeath();
+
+            // Buraya olunca gelecek bir canvas eklenebilir.
         }
     }
 }
