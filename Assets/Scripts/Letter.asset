@@ -14,40 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   letters:
   - name: u
-    sprite: {fileID: 1537719192, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -1528570124, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: r
-    sprite: {fileID: 290304788, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -674234240, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: h
-    sprite: {fileID: 1978650824, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -1924863403, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: o
-    sprite: {fileID: -939761636, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -2140147335, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: c
-    sprite: {fileID: -1075265804, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 1788869324, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: b
-    sprite: {fileID: -1928812672, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -2130995242, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: s
-    sprite: {fileID: -623315841, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 259605008, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: i
-    sprite: {fileID: -1113317780, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 1670690224, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: j
-    sprite: {fileID: 1205230135, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -1706300802, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: p
-    sprite: {fileID: 910999979, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -323697661, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: m
-    sprite: {fileID: 454031637, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 557389619, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: f
-    sprite: {fileID: 509008021, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -1080070864, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: y
-    sprite: {fileID: 467132984, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -784239668, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: l
-    sprite: {fileID: -189350427, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 433960996, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: x
-    sprite: {fileID: 16270697, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 1230573580, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: g
-    sprite: {fileID: -523850137, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -688065425, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: k
-    sprite: {fileID: 1925648441, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -286577917, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: w
-    sprite: {fileID: -633810746, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: -612549041, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
   - name: t
-    sprite: {fileID: -355422933, guid: b8925cc4d4ce0854aa113205e5b953e5, type: 3}
+    sprite: {fileID: 281820224, guid: 45ac6cdbebe9ea944b2be980a5323607, type: 3}
