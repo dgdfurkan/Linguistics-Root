@@ -57,6 +57,8 @@ public class Player : MonoBehaviour
 
         Slip();
 
+        Crouch();
+
         if (InventorySystem.Instance.word == "climb")
         {
             ClimbLadder();
@@ -129,7 +131,42 @@ public class Player : MonoBehaviour
 
     private void Slip()
     {
+        if (InventorySystem.Instance.word == "slip")
+        {
+            if (Input.GetKeyDown(KeyCode.V) && !myAnimator.GetBool("Slip"))
+            {
+                myAnimator.SetBool("Slip", true);
+            }
+            else if (Input.GetKeyDown(KeyCode.V) && myAnimator.GetBool("Slip"))
+            {
+                myAnimator.SetBool("Slip", false);
+            }
+            
+        }
+        else
+        {
+            myAnimator.SetBool("Slip", false);
+        }
+    }
+    
+    private void Crouch()
+    {
+        if (InventorySystem.Instance.word == "crouch")
+        {
+            if (Input.GetKeyDown(KeyCode.C) && !myAnimator.GetBool("Crouch"))
+            {
+                myAnimator.SetBool("Crouch", true);
+            }
+            else if (Input.GetKeyDown(KeyCode.C) && myAnimator.GetBool("Crouch"))
+            {
+                myAnimator.SetBool("Crouch", false);
+            }
 
+        }
+        else
+        {
+            myAnimator.SetBool("Crouch", false);
+        }
     }
 
     private void ClimbLadder()

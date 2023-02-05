@@ -185,11 +185,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 5
-  jumpSpeed: 8
+  jumpSpeed: 7
   climbSpeed: 5
-  deathKick: {x: 5, y: 5}
+  flySpeed: 10
+  deathKick: {x: 2, y: 2}
   myRigidBody: {fileID: 1962837074162907824}
   myAnimator: {fileID: 7211861682957997315}
   myBodyCollider2D: {fileID: 1962837074162907831}
   myFeet: {fileID: 241122276891105460}
   inventoryPanel: {fileID: 0}
+  gameOverScene: {fileID: 0}
+  carrotText: {fileID: 0}
+  finishScene: {fileID: 0}
+  deathSound: {fileID: 0}
+  ambianceSound: {fileID: 0}
+  carrotAnim: {fileID: 0}

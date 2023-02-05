@@ -12,6 +12,7 @@ public class LetterController : MonoBehaviour
             InventorySystem.Instance.ownLetterNames.Add(gameObject.name);
             InventorySystem.Instance.ownLetterNamesTemp.Add(gameObject.name);
             InventorySystem.Instance.UpdateLetters();
+            Destroy(gameObject);
         }
     }
 }
