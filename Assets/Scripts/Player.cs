@@ -20,8 +20,10 @@ public class Player : MonoBehaviour
     private float myGravityScaleAtStart;
     [SerializeField] private GameObject inventoryPanel;
 
-    public GameObject gameOverScene;
-    public AudioSource deathSound;
+    public GameObject gameOverScene,carrotText,finishScene;
+    public AudioSource deathSound, ambianceSound;
+    private bool inside;
+    public Animation carrotAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,8 +55,20 @@ public class Player : MonoBehaviour
             Fly();
         }
 
-        ClimbLadder();
+        Slip();
+
+        if (InventorySystem.Instance.word == "climb")
+        {
+            ClimbLadder();
+        }       
         Die();
+
+        if (inside)
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                carrotAnim.Play();
+                StartCoroutine(FinishScene());
+            }      
     }
 
     private void OpenInventory()
@@ -113,6 +127,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void Slip()
+    {
+
+    }
+
     private void ClimbLadder()
     {
         if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Climbing")))
@@ -141,6 +160,7 @@ public class Player : MonoBehaviour
             myAnimator.SetTrigger("Dying");
             myRigidBody.velocity = deathKick;
             deathSound.Play();
+            ambianceSound.Stop();
             //FindObjectOfType<GameSession>().ProcessPlayerDeath();
             StartCoroutine(GameOver());        
         }
@@ -153,5 +173,31 @@ public class Player : MonoBehaviour
             Time.timeScale = 0;
             gameOverScene.SetActive(true);
         }        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Carrot")
+        {
+            Debug.Log("inside");
+            inside= true;
+            carrotText.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Carrot")
+        {
+            inside= false;
+            carrotText.SetActive(false);
+        }
+    }
+
+    IEnumerator FinishScene()
+    {
+        yield return new WaitForSeconds(2f);
+        Time.timeScale = 0;
+        finishScene.SetActive(true);
     }
 }
