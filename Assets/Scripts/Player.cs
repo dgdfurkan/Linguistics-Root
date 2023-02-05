@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float runSpeed = 5f;
     [SerializeField] private float jumpSpeed = 12f;
     [SerializeField] private float climbSpeed = 5f;
+    [SerializeField] private float flySpeed = 12f;
     [SerializeField] private Vector2 deathKick = new Vector2(25f, 25f);
 
     private bool isAlive = true;
@@ -18,6 +20,8 @@ public class Player : MonoBehaviour
     private float myGravityScaleAtStart;
     [SerializeField] private GameObject inventoryPanel;
 
+    public GameObject gameOverScene;
+    public AudioSource deathSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +47,10 @@ public class Player : MonoBehaviour
         if (InventorySystem.Instance.word == "jump")
         {
             Jump();
+        }
+        if (InventorySystem.Instance.word == "fly")
+        {
+            Fly();
         }
 
         ClimbLadder();
@@ -92,6 +100,19 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void Fly()
+    {
+        if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Foreground")))
+        {
+            return;
+        }
+        if (Input.GetButtonDown("Jump"))
+        {
+            Vector2 flyVelocityToAdd = new Vector2(0f, flySpeed);
+            myRigidBody.velocity += flyVelocityToAdd;
+        }
+    }
+
     private void ClimbLadder()
     {
         if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Climbing")))
@@ -119,9 +140,18 @@ public class Player : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Dying");
             myRigidBody.velocity = deathKick;
+            deathSound.Play();
             //FindObjectOfType<GameSession>().ProcessPlayerDeath();
-
-            // Buraya olunca gelecek bir canvas eklenebilir.
+            StartCoroutine(GameOver());        
         }
+    }
+    IEnumerator GameOver()
+    {
+        if (!isAlive)
+        {
+            yield return new WaitForSeconds(3f);
+            Time.timeScale = 0;
+            gameOverScene.SetActive(true);
+        }        
     }
 }

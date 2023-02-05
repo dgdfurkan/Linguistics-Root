@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
    {
         clickSound.Play();
         SceneManager.LoadScene("Game");
+        Time.timeScale= 1.0f;
    }
 
     public void OptionMenu()
