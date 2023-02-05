@@ -4,12 +4,28 @@ using UnityEngine;
 
 public class FollowCam : MonoBehaviour
 {
-    [SerializeField] private Player player;
-    private Vector2 newCamPos;
 
-    void Update()
+    public Transform target;
+    public Vector3 minValues, maxValues;
+
+    [Range(1,10)]
+    public float smoothFactor;
+
+    private void FixedUpdate()
     {
-        newCamPos = new Vector2(player.transform.position.x, 0);
-        transform.position = new Vector3(newCamPos.x, newCamPos.y, transform.position.z);
+        Follow();
+    }
+
+    public void Follow()
+    {
+        Vector3 targetPosition= target.position;
+
+        Vector3 boundPosition = new Vector3(
+            Mathf.Clamp(targetPosition.x, minValues.x, maxValues.x),
+            Mathf.Clamp(targetPosition.y, minValues.y, maxValues.y),
+            Mathf.Clamp(targetPosition.z, minValues.z, maxValues.z));
+
+        Vector3 smoothPosition = Vector3.Lerp(transform.position, boundPosition, smoothFactor*Time.fixedDeltaTime);
+        transform.position = smoothPosition;
     }
 }
